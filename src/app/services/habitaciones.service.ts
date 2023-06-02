@@ -12,9 +12,13 @@ export class HabitacionesService {
   constructor(public servicioHabitacion:HttpClient){}
    
   public buscarHabitaciones():Observable<any>{
-    let endpoint="/buscarhabitaciones"
-    let uri=this.url+endpoint
-    return this.servicioHabitacion.get(uri)
+    let urlServicio:string=this.url+"buscarhabitaciones"
+      return this.servicioHabitacion.get(urlServicio)
+  }
+
+  public registrarHabitacion(datos:any):Observable<any>{
+    let urlServicio:string=this.url+"buscarhabitaciones"
+    return this.servicioHabitacion.post(urlServicio, datos)
   }
 
   public buscarHabitacion(){}

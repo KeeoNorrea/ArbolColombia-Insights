@@ -28,7 +28,7 @@ export class FormulariohabitacionComponent {
   public procesarDatos():void{
     let datos=this.formulario.value
 
-    this.servicio.registrarHabitacion(datos)
+    this.servicio.registrarhabitacion(datos)
     .subscribe
   }
 }

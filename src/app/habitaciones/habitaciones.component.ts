@@ -15,7 +15,7 @@ import { HabitacionesService } from '../services/habitaciones.service';
   public habitaciones:Habitacion[]=[]
 
   public constructor(public servicio:HabitacionesService){
-    this.servicio.buscarHabitaciones()
+    this.servicio.buscarhabitaciones()
     .subscribe((respuesta)=>{
       this.habitaciones=respuesta.habitaciones
     })

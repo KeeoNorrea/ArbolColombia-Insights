@@ -12,4 +12,4 @@ Página web de analisis de datos reforestación de arboles de algunas ciudades d
 
 ------------
 
-All rights reserved by [Juan Esteban Torres Ibarguen](https://github.com/black-software100 "Juan Esteban Torres Ibarguen")
+All rights reserved by [Johan Quintero Alvarez](https://github.com/keoJaramillo-dev "Johan Quintero Alvarez")

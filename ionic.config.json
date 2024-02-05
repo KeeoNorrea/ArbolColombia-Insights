@@ -1,0 +1,7 @@
+{
+  "name": "Tabs-front",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
